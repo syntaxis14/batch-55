@@ -1,0 +1,111 @@
+.container {
+    /* border: 2px solid black; */
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 13px;
+    background-color: rgb(198, 193, 193);
+    /* border: 2px solid rebeccapurple; */
+    width: 70%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto {
+    /* border: 1px solid green; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itsme {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 34px;
+    align-items: center;
+}
+
+.itsme img {
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.itsme h4 {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.itsme p {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.desc {
+    /* border: 1px solid green; */
+    width: 50%;
+    height: 55%;
+    /* padding-top: 60px; */
+}
+
+.text {
+    /* border: 1px solid yellow; */
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+
+.btn-card {
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.download-btn {
+    text-decoration: none;
+    color: rgb(91, 91, 244);
+}
+
+.btn-card button {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    height: 30px;
+    width: 80px;
+    text-decoration-line: none;
+}
+
+.btn-card button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+.btn-social {
+    /* border: 1px solid red; */
+    display: flex;
+    padding-top: 12%;
+    gap: 60px;
+    justify-content: center;
+}
+
+.btn-social i {
+    /* border: 1px solid black; */
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
